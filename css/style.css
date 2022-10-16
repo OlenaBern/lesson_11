@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+	font-family: "Lato", sans-serif;
+	background-color: grey;
+}
+main{
+	margin-top: 50px;
+}
+.wrapper{
+	position: relative;
+	/* overflow: hidden; */
+	min-height: 100%;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+img{
+	max-width: 100%;
+}
+.background img{
+	padding: 50px 0px;
+}
+.car__body img{
+	width: 300px;
+	position: absolute;
+	top: 350px;
+	left: 800px;
+}
+.car__rear-wheel img{
+	width: 60px;
+	position: absolute;
+	top: 435px;
+	left: 1013px;
+}
+.car__front-wheel img{
+	width: 60px;
+	position: absolute;
+	top: 435px;
+	left: 824px;
+}
+.car__windows img{
+	width: 160px;
+	position: absolute;
+	top: 355px;
+	left: 893px;
+}
+.car__door-handle img{
+	width: 30px;
+	position: absolute;
+	top: 395px;
+	left: 955px;
+}
+.car__front-light img{
+	width: 30px;
+	position: absolute;
+	top: 404px;
+	left: 806px;
+}
+.car__rear-light img{
+	width: 22px;
+	position: absolute;
+	top: 387px;
+	left: 1078px;
+}
+.test{
+	background: rgb(226, 225, 225);
+}
+
+h1{
+	font-size: 46px;
+	font-weight: 900;
+	color: rgb(68, 69, 69);
+	padding: 30px 0px;
+}
+h2{
+	font-size: 28px;
+	font-weight: 700;
+	color: rgb(99, 100, 100);
+	padding: 35px 0px 20px ;
+}
+.position-relative{
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 200px;
+}
+.position-relative__block-one{
+	height: 50px;
+	width: 500px;
+	background-color: rgb(226, 170, 4);
+}
+.position-relative__block-two{
+	height: 50px;
+	width: 500px;
+	background-color: rgb(146, 65, 3);
+	position: relative;
+	left: 30px;
+	top: 5px;
+	z-index: 1;
+}
+.position-relative__block-tree{
+	height: 50px;
+	width: 500px;
+	background-color: rgb(2, 86, 95);
+}
+.position-absolute{
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 200px;
+	position: relative;
+}
+.position-absolute__block-one{
+	height: 80px;
+	width: 500px;
+	background-color: rgb(126, 25, 2);
+}
+.position-absolute__block-two{
+	height: 50px;
+	width: 300px;
+	background-color: rgb(244, 207, 138);
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+.position-absolute__block-tree{
+	height: 80px;
+	width: 500px;
+	background-color: rgb(133, 93, 145);
+}
+.position-sticky{
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 200px;
+}
+.position-sticky__block-one {
+	height: 100px;
+	width: 500px;
+	background-color: rgb(71, 106, 71);
+	margin-bottom: 30px;
+	position: sticky;
+	top: 0px;
+}
+.position-sticky__block-two{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(220, 204, 169);
+	margin-bottom: 30px;
+}
+.position-sticky__block-tree{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(198, 169, 220);
+	margin-bottom: 30px;
+}
+.position-sticky__block-four{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(71, 87, 106);
+	margin-bottom: 30px;
+}
+.position-sticky__block-five{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(106, 83, 71);
+	margin-bottom: 30px;
+}
+.position-sticky__block-six{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(222, 205, 95);
+	margin-bottom: 30px;
+}
+.position-sticky__block-seven{
+	height: 100px;
+	width: 500px;
+	background-color: rgb(71, 106, 71);
+}
+.position-fixed{
+	border: 2px solid gray;
+	border-radius: 8px;
+	padding: 20px;
+	min-height: 400px;
+}
+.position-fixed__block-one{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(217, 133, 190);
+	position: fixed;
+	top: 800px;
+}
+.position-fixed__block-two{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(245, 202, 109);
+	position: fixed;
+	top: 800px;
+	left: 600px;
+}
+.position-fixed__block-tree{
+	height: 100px;
+	width: 100px;
+	background-color: rgb(38, 104, 128);
+	position: fixed;
+	top: 800px;
+	left: 900px;
+}
